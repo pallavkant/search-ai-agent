@@ -8,21 +8,18 @@ A simple CLI based AI agent powered by the Anthropic API with built-in web searc
 ## Setup
 1. Clone the repository and install dependencies:
    ```bash
-   git clone https://github.com/pallavkant/my-first-agent.git
-   cd my-first-agent
+   git clone https://github.com/pallavkant/search-ai-agent.git
+   cd search-ai-agent
    npm install
    ```
 2. Copy the example env file and add your own API key: NOTE: The agent will not work without a valid API key.
-   ```bash
-   cp agent.env.example agent.env
-   ```
+   Rename agent.env.example to agent.env. 
    Edit `agent.env` and set `ANTHROPIC_API_KEY` to your key.
 
 ## Run
-```bash
+
 npm start
-```
-Type your questions at the `You:` prompt. Press **Ctrl+C** to quit.
+Type your questions at the `You:` prompt. Press Ctrl+C to quit.
 
 ## License
 MIT
