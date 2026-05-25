@@ -1,5 +1,5 @@
 {
-  "name": "my-first-agent",
+  "name": "search-ai-agent",
   "version": "1.0.0",
   "type": "module",
   "main": "agent.js",
